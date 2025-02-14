@@ -53,4 +53,6 @@ switch (operation.toLowerCase()) {
 ```
 
 Run the following example command: <br>
-`deno run --unstable-kv --allow-net cli-kv.ts <operation> <key> [<value>]`
+```
+deno run --unstable-kv --allow-net cli-kv.ts <operation> <key> [<value>]
+```
