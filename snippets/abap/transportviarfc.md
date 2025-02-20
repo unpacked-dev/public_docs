@@ -1,5 +1,5 @@
 # Transport RFC
-is a tool for exporting and importing transports from one system to another by sending the cofiles via RFC.
+is a tool for exporting and importing transports from one system to another by sending the cofiles via RFC. Just add the EXPORT function module to the system which has the transports in and add the IMPORT function module to the system which the transport should be going. Also make sure the function modules has enabled RFC and your system has the RFC path defined in SM59.
 
 `EXPORT`
 ```abap
@@ -259,3 +259,7 @@ ENDIF.
 
 ENDFUNCTION.
 ```
+
+---
+
+© unpacked - [licence](../../LICENSE)
