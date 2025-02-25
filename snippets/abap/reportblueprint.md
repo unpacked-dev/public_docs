@@ -63,3 +63,34 @@ FORM set_selected_mode.
   ENDIF.
 ENDFORM.
 ```
+
+## Button Blueprint
+ABAP report blueprint with custom **BUTTONS** and click handlers.
+```ABAP
+REPORT XXX.
+
+*&---------------------------------------------------------------------*
+*& Parameter Definitions
+*&---------------------------------------------------------------------*
+SELECTION-SCREEN BEGIN OF BLOCK block1 WITH FRAME TITLE TEXT-100.
+
+SELECTION-SCREEN SKIP.
+SELECTION-SCREEN PUSHBUTTON /1(20) btn_act USER-COMMAND BTN_ACT.
+
+SELECTION-SCREEN END OF BLOCK block1.
+
+*&---------------------------------------------------------------------*
+*& Initialization
+*&---------------------------------------------------------------------*
+INITIALIZATION.
+  btn_act = text-ba1. "Define Button Text
+
+*&---------------------------------------------------------------------*
+*& Screen Handling
+*&---------------------------------------------------------------------*
+AT SELECTION-SCREEN.
+  CASE sy-ucomm.
+    WHEN 'BTN_ACT'.
+      "...
+  ENDCASE.
+```
