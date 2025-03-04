@@ -37,9 +37,19 @@ A (very) small cheatsheet for SAP ERP/CRM knowledge. <br>
 ## Reports
 `RS_ABAP_SOURCE_SCAN` Sourcecode scan
 
+---
+
 ## Function modules
 `BAPI_BUPA_CENTRAL_GETDETAIL` Central data of BP <br>
 `BAPI_BUPA_ADDRESS_GETDETAIL` Adress data of BP <br>
+
+---
+
+## SAP GUI Config
+
+### Pretty Printer Config
+Hilfsmittel -> Einstellungen:
+![Pretty Printer Config](../assets/img/abap_cheatsheet_sap_gui_pretty_printer.png)
 
 ---
 © unpacked - [licence](../../LICENSE)
