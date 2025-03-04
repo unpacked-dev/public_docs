@@ -48,7 +48,7 @@ A (very) small cheatsheet for SAP ERP/CRM knowledge. <br>
 ## SAP GUI Config
 
 ### Pretty Printer Config
-Hilfsmittel -> Einstellungen:
+Hilfsmittel -> Einstellungen: <br>
 ![Pretty Printer Config](../assets/img/abap_cheatsheet_sap_gui_pretty_printer.png)
 
 ---
