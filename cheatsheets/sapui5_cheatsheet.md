@@ -255,3 +255,6 @@ sap.ui.define([
     });
 });  
 ```
+
+---
+© unpacked - [licence](../../LICENSE)
