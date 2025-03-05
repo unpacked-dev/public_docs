@@ -54,3 +54,6 @@ Start the server with this simple command: `deno run --allow-net app.js`
 ## Making requests
 1. URL-Encode your target url
 2. Do `GET` request to `http://localhost:8000/YOUR_TARGET_URL`
+
+---
+© unpacked - [licence](../../LICENSE)

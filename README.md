@@ -21,3 +21,9 @@ Just my public pastebin for docs and codesnippets
 
 ### Deno
 - [Deno KV CRUD](./snippets/deno/deno_kv_crud_cli_example.md)
+- [No-Cors Proxy](./snippets/deno/no-cors.md)
+
+<br>
+
+---
+© unpacked - [licence](../../LICENSE)
