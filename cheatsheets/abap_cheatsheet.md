@@ -14,6 +14,7 @@ A (very) small cheatsheet for SAP ERP/CRM knowledge. <br>
 `se37` Function modules  <br>
 `se38` Reports <br>
 `sm30` (Table) Customizing <br>
+`sm59` RFC-Destinations <br>
 `otr_edit` OTR-Texts <br>
 `st22` (Short) Dumps <br>
 `stms` Transport management system <br>
