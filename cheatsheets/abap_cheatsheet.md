@@ -45,11 +45,24 @@ A (very) small cheatsheet for SAP ERP/CRM knowledge. <br>
 
 ---
 
-## SAP GUI Config
+## SAP GUI
 
 ### Pretty Printer Config
-Hilfsmittel -> Einstellungen: <br>
-![Pretty Printer Config](../assets/img/abap_cheatsheet_sap_gui_pretty_printer.png)
+`Utilities (Hilfsmittel) -> Settings (Einstellungen)`
+```
+Indent (Einrücken) = X
+Convert Uppercase/Lowercase (Groß-/Kleinkonvertierung)= X
+    Uppercase Keyword (Schlüsselwort groß) = X
+```
+
+### Change Object Directory Entries
+Change Packet, Original System, Person Responsible etc. for an Object
+
+1. Transaction `se03`
+2. `Object Directory -> Change Object Directory Entries`
+3. Select by Object (Class, Programm, FM etc.)
+4. Execute `F8`
+5. Edit `F1`
 
 ---
 © unpacked - [licence](../../LICENSE)
