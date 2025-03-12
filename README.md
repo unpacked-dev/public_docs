@@ -23,6 +23,9 @@ Just my public pastebin for docs and codesnippets
 - [Deno KV CRUD](./snippets/deno/deno_kv_crud_cli_example.md)
 - [No-Cors Proxy](./snippets/deno/no-cors.md)
 
+### SAP UI5
+- [Await oModel load](./snippets/sap_ui5/await_load_oModel.md)
+
 <br>
 
 ---
