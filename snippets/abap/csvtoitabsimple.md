@@ -31,7 +31,7 @@ FUNCTION z_csv_to_itab_simple.
 *"*"Lokale Schnittstelle:
 *"  IMPORTING
 *"     REFERENCE(FIV_USE_GUI_UPLOAD) TYPE  XFELD DEFAULT 'X'
-*"     REFERENCE(FIT_CSV_TAB) TYPE  Z_TT_STRING OPTIONAL
+*"     REFERENCE(FIT_CSV_TAB) TYPE  ZTT_STRING OPTIONAL
 *"     REFERENCE(FIV_ENCODING) TYPE  ABAP_ENCODING DEFAULT '4110'
 *"     REFERENCE(FIV_SEPERATOR) TYPE  CHAR1 DEFAULT ','
 *"  EXPORTING
@@ -92,7 +92,7 @@ FUNCTION z_csv_to_itab_simple.
 *&---------------------------------------------------------------------*
 *& Process CSV
 *&---------------------------------------------------------------------*
-  DATA lt_result_tab TYPE ZTT_CSV_SIMPLE.
+  DATA lt_result_tab LIKE FET_TAB_SIMPLE.
   DATA ls_result_tab LIKE LINE OF lt_result_tab.
 
   DATA lv_csv_header_line TYPE string.
@@ -122,7 +122,7 @@ FUNCTION z_csv_to_itab_simple.
     SPLIT lv_csv_body_line AT fiv_seperator INTO TABLE lt_csv_body_fields.
     LOOP AT lt_csv_body_fields INTO lv_body_field.
       READ TABLE lt_result_tab ASSIGNING <fs_table_entry> INDEX sy-tabix.
-      IF sy-subrc EQ 0 AND <fs_table_entry> IS ASSIGNED AND lv_body_field IS NOT INITIAL.
+      IF sy-subrc EQ 0 AND <fs_table_entry> IS ASSIGNED.
         APPEND lv_body_field TO <fs_table_entry>-values.
       ENDIF.
     ENDLOOP.
