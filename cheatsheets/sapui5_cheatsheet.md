@@ -2,10 +2,17 @@
 A blueprint for a simple sap ui5 app.
 
 ## Getting started
+### With local Runtime Assets
 1. Download [SAP UI5 Runtime](https://tools.hana.ondemand.com/#sapui5)
 2. Create a new folder for your project e.g. `ui5_example`
 3. Unzip Runtime into your project folder
 4. Create the directory structure in your project folder
+
+### Using a CDN
+1. Use one of the following official CDN for your project <br>
+   1.1 [SAP UI5](https://github.com/SAP-docs/sapui5/blob/main/docs/04_Essentials/variant-for-bootstrapping-from-content-delivery-network-2d3eb2f.md)  <br>
+   1.2 [Recommended: Open UI5 (open source)](https://github.com/SAP/openui5-docs/blob/main/docs/Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md) <br>
+2. Create the directory structure in your project folder
 
 ```
 ui5_example/
@@ -41,7 +48,9 @@ The entry point where the UI5 Bootstrap is loaded.
   <head>
     <meta charset="utf-8">
     <title>Meine UI5 App</title>
-    <script src="./resources/sap-ui-core.js"
+    <script 
+      src="./resources/sap-ui-core.js" <!-- USING LOCAL (remove line below)-->
+      src="https://sdk.openui5.org/1.120.27/resources/sap-ui-core.js" <!-- USING A CDN (remove line above)-->
       id="sap-ui-bootstrap"
       data-sap-ui-libs="sap.m"
       data-sap-ui-theme="sap_belize_dark"
@@ -255,6 +264,10 @@ sap.ui.define([
     });
 });  
 ```
+
+## Documentation
+- [SAP UI5 SDK, Demo Kit and Docs](https://sapui5.hana.ondemand.com/)
+- [Open UI5 SDK, Demo Kit and Docs](https://sdk.openui5.org/)
 
 ---
 © unpacked - [licence](../../LICENSE)
