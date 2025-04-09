@@ -7,6 +7,7 @@ Just my public pastebin for docs and codesnippets
 - [SAP ABAP (ERP/CRM)](./cheatsheets/abap_cheatsheet.md)
 - [Report blueprint](./cheatsheets/abap_report_cheatsheet.md)
 - [Chrome Browser Extension](./cheatsheets/chrome_browser_extension_cheatsheet.md)
+- [JS Regex](./cheatsheets/regex_js_cheatsheet.md)
 
 ## Code Snippets
 ### ABAP
