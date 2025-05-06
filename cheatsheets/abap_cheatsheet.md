@@ -22,6 +22,7 @@ A (very) small cheatsheet for SAP ERP/CRM knowledge. <br>
 `/IWFND/GW_CLIENT` SAP Gateway Client (if not exist try report below) <br>
 `/IWFND/ERROR_LOG` SAP Gateway Error Log (if not exist try report below) <br>
 `/IWFND/MAINT_SERVICE` Activate and Maintain Gateway Services (if not exist try report below) <br>
+`/IWBEP/SB` SAP Gateway Service Builder <br>
 
 ---
 
@@ -43,6 +44,7 @@ A (very) small cheatsheet for SAP ERP/CRM knowledge. <br>
 `/IWFND/SUTIL_GW_CLIENT` SAP Gateway Client <br>
 `/IWFND/SUTIL_LOG` SAP Gateway Error Log <br>
 `/IWFND/R_MGW_REGISTRATION` Activate and Maintain Gateway Services <br>
+`/IWBEP/R_SBUI_SERVICE_BUILDER` SAP Gateway Service Builder <br>
 
 ---
 
