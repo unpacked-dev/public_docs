@@ -19,6 +19,9 @@ A (very) small cheatsheet for SAP ERP/CRM knowledge. <br>
 `st22` (Short) Dumps <br>
 `stms` Transport management system <br>
 `sproxy` Proxylass for webservice calls <br>
+`/IWFND/GW_CLIENT` SAP Gateway Client (if not exist try report below) <br>
+`/IWFND/ERROR_LOG` SAP Gateway Error Log (if not exist try report below) <br>
+`/IWFND/MAINT_SERVICE` Activate and Maintain Gateway Services (if not exist try report below) <br>
 
 ---
 
@@ -36,7 +39,10 @@ A (very) small cheatsheet for SAP ERP/CRM knowledge. <br>
 ---
 
 ## Reports
-`RS_ABAP_SOURCE_SCAN` Sourcecode scan
+`RS_ABAP_SOURCE_SCAN` Sourcecode scan <br>
+`/IWFND/SUTIL_GW_CLIENT` SAP Gateway Client <br>
+`/IWFND/SUTIL_LOG` SAP Gateway Error Log <br>
+`/IWFND/R_MGW_REGISTRATION` Activate and Maintain Gateway Services <br>
 
 ---
 
