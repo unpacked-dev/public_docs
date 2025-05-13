@@ -24,6 +24,7 @@ Just my public pastebin for docs and codesnippets
 - [CLI Deno KV CRUD](./snippets/deno/deno_kv_crud_cli_example.md)
 - [No-Cors Proxy](./snippets/deno/no-cors.md)
 - [CLI Deno CSV Splitter](./snippets/deno/deno_csv_splitter_cli.md)
+- [Deno Progressbar](./snippets/deno/deno_progressbar.md)
 
 ### SAP UI5
 - [Await oModel load](./snippets/sap_ui5/await_load_oModel.md)
