@@ -25,6 +25,7 @@ Just my public pastebin for docs and codesnippets
 - [No-Cors Proxy](./snippets/deno/no-cors.md)
 - [CLI Deno CSV Splitter](./snippets/deno/deno_csv_splitter_cli.md)
 - [Deno Progressbar](./snippets/deno/deno_progressbar.md)
+- [Websocket example](./snippets/deno/deno_websocket.md)
 
 ### SAP UI5
 - [Await oModel load](./snippets/sap_ui5/await_load_oModel.md)
