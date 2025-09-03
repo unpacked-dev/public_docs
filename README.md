@@ -10,6 +10,9 @@ Just my public pastebin for docs and codesnippets
 - [JS Regex](./cheatsheets/regex_js_cheatsheet.md)
 
 ## Code Snippets
+### JS
+- [Vanilla JS Ready-Handler for (async) Events](./snippets/js/ready_handler.md)
+
 ### ABAP
 - [CSV to simple internal table](./snippets/abap/csvtoitabsimple.md)
 - [Internal table to csv](./snippets/abap/itabtocsvxstring.md)
